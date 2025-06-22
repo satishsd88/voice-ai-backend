@@ -19,7 +19,7 @@ app.use(express.json()); // To parse JSON bodies (e.g., for OpenAI questions)
 // CORS Configuration: Allows your frontend to talk to this backend
 // IMPORTANT: Replace 'https://your-frontend-name.onrender.com' with your actual deployed frontend URL on Render.com
 app.use(cors({
-    origin: 'https://your-frontend-name.onrender.com', // REPLACE WITH YOUR RENDER.COM FRONTEND URL
+    origin: 'https://voice-ai-frontend-q3c3.onrender.com', // REPLACE WITH YOUR RENDER.COM FRONTEND URL
     methods: ['GET', 'POST'],
     allowedHeaders: ['Content-Type'], // Removed 'Authorization' as no authentication is used
 }));
